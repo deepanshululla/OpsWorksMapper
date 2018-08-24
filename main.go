@@ -13,7 +13,6 @@ func main()  {
 	elbMapFile:="$GOPATH/src/github.com/influxdata/telegraf/elbClusterNameMap.json"
 	opsMapFile:="$GOPATH/src/github.com/influxdata/telegraf/opsWorksInstanceIdNameMap.json"
 	Syncher(ec2MapFile,elbMapFile,opsMapFile)
-
 }
 
 
